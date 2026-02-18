@@ -1,1 +1,6 @@
 Vadim - your CTO site
+
+yarn dev — запуск локального сервера.
+yarn build — компиляция TypeScript и сборка проекта в папку dist.
+yarn preview — просмотр собранного результата перед деплоем.
+
