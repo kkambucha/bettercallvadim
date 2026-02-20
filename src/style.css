@@ -90,3 +90,13 @@ body {
     scale: 0.8;
   }
 }
+
+@media (orientation: landscape) {
+  .contacts {
+    right: 0;
+    left: auto;
+    transform: none;
+    flex-direction: column;
+    bottom: 0;
+  }
+}
