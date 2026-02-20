@@ -83,16 +83,8 @@ body {
     width: 80vw;
   }
 
-  .vadim svg {
-    transform: scale(0.8);
-  }
-
-  .vadim .letter {
-    margin-right: -27px;
-  }
-
-  .vadim .v {
-    margin-right: -42px;
+  .mobile-scale {
+    scale: 0.9;
   }
 }
 
