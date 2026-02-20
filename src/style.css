@@ -1,3 +1,11 @@
+:root {
+  --white: #ffffff;
+  --light-blue: #73b8dc;
+  --light-grey: #ecf2f7;
+  --blue: #96d8f9;
+  --dark-blue: #29789f;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -6,6 +14,10 @@ body {
   justify-content: center;
   background: #b9e3f9;
   overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .wrapper {
@@ -26,23 +38,45 @@ body {
   transform: translateX(-50%);
 }
 
-.architects-daughter-regular {
-  font-family: "Architects Daughter", cursive;
-  font-weight: 400;
-  font-style: normal;
+.avatar {
+  display: block;
+  width: 18vw;
+  height: 18vw;
+  border-radius: 100%;
+  border: 20px solid var(--dark-blue);
+  margin: 0 auto -40px;
+  max-width: 326px;
+  max-height: 326px;
 }
 
-.orelega-one-regular {
-  font-family: "Orelega One", serif;
-  font-weight: 400;
-  font-style: normal;
+.vadim {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 
-.roboto-black {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
+.vadim .letter {
+  margin-right: -14px;
+}
+
+.vadim .v {
+  margin-right: -30px;
+}
+
+.letter {
+}
+
+.contacts {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+}
+
+.contact {
+  margin: 0 1vw;
 }
 
 @media (max-width: 1000px) {
