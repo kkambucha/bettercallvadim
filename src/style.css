@@ -47,6 +47,8 @@ body {
   margin: 0 auto -40px;
   max-width: 326px;
   max-height: 326px;
+  min-width: 200px;
+  min-height: 200px;
 }
 
 .vadim {
@@ -83,10 +85,19 @@ body {
   .content {
     width: 80vw;
   }
+
+  .vadim svg {
+    transform: scale(0.8);
+  }
+
+  .vadim .letter {
+    margin-right: -27px;
+  }
+
+  .vadim .v {
+    margin-right: -42px;
+  }
 }
 
-/* @media (max-height: 720px) {
-  svg {
-    transform: scale(0.7);
-  }
-} */
+@media (max-height: 720px) {
+}
