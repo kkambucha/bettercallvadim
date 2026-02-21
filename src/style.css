@@ -59,6 +59,7 @@ body {
   display: flex;
   align-items: baseline;
   justify-content: center;
+  display: none;
 }
 
 .vadim .letter {
@@ -91,6 +92,15 @@ body {
 
 .contact-button:focus {
   outline: 2px dashed var(--dark-blue);
+}
+
+.bars {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 10px;
 }
 
 @media (max-width: 1000px) {
