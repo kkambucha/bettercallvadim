@@ -33,7 +33,6 @@ body {
 
 .content {
   max-width: 700px;
-  border: 1px solid red;
   width: 90vw;
   height: 70vh;
   position: fixed;
@@ -150,7 +149,6 @@ body {
 .trend-wrapper {
   position: relative;
   height: 100%;
-  border: 1px solid blue;
 }
 
 .trend-arrow {
@@ -180,7 +178,6 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  border: 1px solid blue;
   max-width: 700px;
   max-height: 700px;
 }
